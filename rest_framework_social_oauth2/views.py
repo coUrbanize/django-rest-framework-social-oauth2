@@ -4,10 +4,10 @@ from django.http import HttpResponse
 from django.views.generic import View
 from braces.views import CsrfExemptMixin
 
-from rest_framework.decorators import api_view, authentication_classes, permission_classes
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework import permissions
+from rest_framework_3.decorators import api_view, authentication_classes, permission_classes
+from rest_framework_3.response import Response
+from rest_framework_3 import status
+from rest_framework_3 import permissions
 
 from oauth2_provider.models import Application, AccessToken
 from oauth2_provider.settings import oauth2_settings

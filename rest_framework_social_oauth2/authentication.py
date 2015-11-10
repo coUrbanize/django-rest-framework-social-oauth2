@@ -2,8 +2,8 @@
 
 from django.core.urlresolvers import reverse
 
-from rest_framework.authentication import BaseAuthentication, get_authorization_header
-from rest_framework import exceptions, HTTP_HEADER_ENCODING
+from rest_framework_3.authentication import BaseAuthentication, get_authorization_header
+from rest_framework_3 import exceptions, HTTP_HEADER_ENCODING
 
 from social.apps.django_app.views import NAMESPACE
 from social.apps.django_app.utils import load_backend, load_strategy
