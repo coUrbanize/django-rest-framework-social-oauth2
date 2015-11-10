@@ -8,7 +8,7 @@ from rest_framework_3 import exceptions, HTTP_HEADER_ENCODING
 from social.apps.django_app.views import NAMESPACE
 from social.apps.django_app.utils import load_backend, load_strategy
 from social.exceptions import MissingBackend
-from social.utils import requests
+import requests
 
 
 class SocialAuthentication(BaseAuthentication):

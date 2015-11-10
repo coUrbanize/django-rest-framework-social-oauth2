@@ -12,7 +12,7 @@ from oauthlib.oauth2.rfc6749.grant_types.refresh_token import RefreshTokenGrant
 from social.apps.django_app.views import NAMESPACE
 from social.apps.django_app.utils import load_backend, load_strategy
 from social.exceptions import MissingBackend
-from social.utils import requests
+import requests
 
 
 log = logging.getLogger(__name__)
